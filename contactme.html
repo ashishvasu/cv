@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact_me</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form action="mailto:17mi538@nith.ac.in" method="POST">
+        <fieldset>
+            <legend>Your details:</legend>
+            <label for="Name:">Name:</label>
+            <input type="text" name="Name:"value=""><br>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email:" value="" required="required">
+         </fieldset>
+         <br>
+        <fieldset>
+        <legend>Your Review:</legend>
+        <p>How did you know about us?
+            <select name="" id="how you know about us">
+            <option value="">Google</option>
+            <option value="">Newspaper</option>
+            <option value="">friend</option>
+            <option value="">other</option>
+            </select>
+        </p>
+        <p>Would you visit again?
+            <input type="radio" name="Yes" value="">
+            <label for="Yes">Yes</label>
+            <input type="radio" name="NO" value="">
+            <label for="No">No</label>
+            <input type="radio" name="Maybe" value="">
+            <label for="Maybe">Maybe</label>
+        </p>
+        <label for="comments:">Comments:</label><br>
+        <textarea name="Comments" id="comments" cols="40" rows="4" ></textarea>
+        <p>
+        <input type="checkbox" name="" value="">
+        Sign me up for email update</p>
+        <input type="submit" name="submit" value="Submit Review">
+    </fieldset>
+    </form>
+</body>
+</html>
